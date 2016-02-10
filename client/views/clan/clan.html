@@ -1,0 +1,9 @@
+<template name="Clan">
+  {{#if isEditing}}
+    <h1>Edit {{title}}</h1>
+    {{> quickForm collection="Clan" doc=this id="updateClansForm" type="update"}}
+  {{else}}
+    <h1>{{title}}</h1>
+    <button class="btn edit">Edit</button>
+  {{/if}}
+</template>

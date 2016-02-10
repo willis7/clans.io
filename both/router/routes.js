@@ -10,4 +10,5 @@ Router.configure({
 Router.map(function () {
   this.route('home', {path: '/'});
   this.route('clans', {path: '/clans'});
+  this.route('clan', {path: '/clan/:id'});
 });
