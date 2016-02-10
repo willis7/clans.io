@@ -1,0 +1,9 @@
+<template name="MasterLayout">
+  <section class="container">
+      <ul class="nav nav-pills">
+        <li><a href="{{pathFor 'home'}}" >Home</a></li>
+        <li><a href="{{pathFor 'clans'}}" >Clans</a></li>
+      </ul>
+    {{> yield}}
+  </section>
+</template>

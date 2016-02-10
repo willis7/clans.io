@@ -1,0 +1,7 @@
+<template name="clans">
+  <h1>Clans</h1>
+  {{> quickForm collection="Clan" id="clanBookForm" type="insert"}}
+  {{#each clans}}
+    <h2>{{title}}</h2>
+  {{/each}}
+</template>
